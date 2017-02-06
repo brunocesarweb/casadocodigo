@@ -1,0 +1,78 @@
+Nodejs
+Preparando o ambiente para usar o nodejs.
+
+Instalação:
+-nodejs
+-npm
+-express(framework web para nodejs, permite criar aplicações de maneira simples)
+-ejs, para renderizar o html
+-nodemon
+
+Iniciar:
+
+-Criar um diretorio com mkdir;
+-npm init;
+-sudo npm install express --save-dev;
+-Criar e configurar um arquivo app.js;
+
+-----Teste minimo para rodar-------
+var http = require('http');
+var porta = 3000;
+var ip = "localhost";
+
+var server = http.createServer(function(request, response) {
+	console.log("Recebendo request");
+	response.writeHead( 200, {"Content-Type": "text/html"} );
+	response.end("<html><body><h1>Request recebido</h1></body></html>");
+
+}).listen(porta, ip);
+
+console.log("Servidor rodando em http://"+ ip + ":" + porta + "/");
+-----Teste minimo para rodar-------
+
+-Express load
+-plugin body parser()
+
+---------
+Estrutura de pastas:
+-casadocodigo
+	app/
+	config/
+	node_modules/
+	app.js
+	package.json
+
+
+Plugin Mocha para testes
+Plugin Supertest - sudo npm install supertest --save-dev
+
+Supertest - Facilita a escrita do teste
+
+--------------------------------------------------
+Heroku
+
+//Links 
+//https://casadc-nodejs1.herokuapp.com/ | https://git.heroku.com/casadc-nodejs1.git
+
+Banco de dados no heroku
+Creating cleardb:ignite on ⬢ casadc-nodejs1... free
+Created cleardb-infinite-91278 as CLEARDB_DATABASE_URL
+Use heroku addons:docs cleardb to view documentation
+
+Url de coneção banco de dados
+CLEARDB_DATABASE_URL: mysql://b965e27e7325ad:9e3293e7@us-cdbr-iron-east-04.cleardb.net/heroku_08d4a465b578c1a?reconnect=true
+
+Dados para acesso:
+	User: b965e27e7325ad
+	Senha do banco: 9e3293e7
+	url de conexão do banco: us-cdbr-iron-east-04.cleardb.net
+	Nome do banco: heroku_08d4a465b578c1a
+
+
+
+-----------------------------------------------------------------------------
+
+Link:
+http://www.devmedia.com.br/criando-servico-de-microblog-com-node-js/31036
+http://nodebr.com/primeiros-passos-com-express-em-node-js/
+http://nodebr.com/subindo-o-node-com-express-e-entregando-conteudo-dinamico/
