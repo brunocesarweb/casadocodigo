@@ -12,11 +12,9 @@
   },
   "author": "Bruno Cesar",
   "license": "ISC",
-
   "devDependencies": {
     "supertest": "^2.0.1"
   },
-  
   "dependencies": {
     "body-parser": "^1.15.2",
     "ejs": "^2.5.5",
@@ -25,6 +23,17 @@
     "express-validator": "^3.1.2",
     "mocha": "^3.2.0",
     "mysql": "^2.12.0",
-    "socket.io": "^1.7.2"  
-  }
+    "socket.io": "^1.7.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunocesarweb/casadocodigo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brunocesarweb/casadocodigo/issues"
+  },
+  "homepage": "https://github.com/brunocesarweb/casadocodigo#readme"
 }
