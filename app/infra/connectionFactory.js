@@ -34,12 +34,13 @@ var createDBConnection = function(){
 
 		//Exemplo de variavel de ambiente
 		//var urlDeConexao = process.env.CLEARDB_DATABASE_URL;
+//CLEARDB_DATABASE_URL: mysql://b831b1e8d38fc0:05fb291f@us-cdbr-iron-east-04.cleardb.net/heroku_ae86d57b751b5b8?reconnect=true
 
 		return mysql.createConnection({
 			host : "us-cdbr-iron-east-04.cleardb.net",
-			user : "b965e27e7325ad",
-			password : "9e3293e7",
-			database : "heroku_08d4a465b578c1a"
+			user : "b831b1e8d38fc0",
+			password : "05fb291f",
+			database : "heroku_ae86d57b751b5b8"
 		});
 	}
 
