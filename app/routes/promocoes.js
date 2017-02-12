@@ -16,7 +16,7 @@ module.exports = function(app){
 
 		//O io tem uma funcao emit que carraga o conteúdo que será exibido com a promoção. Ele manda um aviso
 		app.get('io').emit('novaPromocao',promocao);
-
+ 
 		//console.log("Promocao " + JSON.stringify(promocao) );
 
 		//Prática de always redirect, todas vez que ouver um post a página é redirecionada para ela própria para evitar o código sujo.
