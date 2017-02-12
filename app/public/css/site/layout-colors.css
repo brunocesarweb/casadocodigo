@@ -46,7 +46,7 @@ html {
 .category > a:hover {
     background-color: rgba(255,255,255,0.15); /*LEVE CLAREAMENTO*/
     border-radius: 5px;
-}
+} 
 
 #home-highlight-collection li a h2 {
   color: #EF7000;

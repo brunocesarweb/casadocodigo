@@ -26,7 +26,7 @@ module.exports = function(){
 
 	//Define o caminho do diretório views. Usa-se o ./ pois o caminho não e o relativo
 	app.set("views", "./app/views");
-
+ 
 	//Recebe funcoes que vao ser aplicadas ao request antes de exportar os modulos
 	//Exemplos:
 	// requisicao -> middlewareBodyParser -> middlewareAutenticacao ->  funcao que trata a requisicao

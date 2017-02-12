@@ -1,7 +1,7 @@
 var mysql = require("mysql");
 
 //Ao ser carregado o express-load ele carrega o módulo e invoca o objeto, nesse caso o já é criado uma conexão com o banco direto
-
+ 
 //Método Wrapper
 //A criação da function createDBConnection e a invocação dela no module.exports é um método chamado wrapper
 //Esse método faz com que uma função embrulhe outra função, fazendo com que o createDBConnection somente sera invocado quando o seu objeto for carregado
