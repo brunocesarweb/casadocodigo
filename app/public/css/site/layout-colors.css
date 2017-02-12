@@ -3,9 +3,10 @@ html {
 }
 
 #logo {
-  background: url('//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/casa-do-codigo.svg?12627631472548691746') no-repeat;
+  background: url('https://cdn.shopify.com/s/files/1/0155/7645/t/226/assets/c-d-c-logo.svg?2108426345555887597') no-repeat;
   background-size: 210px 61px;
   background-position: center;
+  background-color: white;
   margin: 0;
   display: block;
   width: 210px;
@@ -15,6 +16,8 @@ html {
 
 #layout-header {
   background: #000;
+  max-height: 90px;
+  height: auto;
 }
 
 #submit-product-newsletter{
@@ -124,7 +127,8 @@ html {
 }
 
 .footer-payments {
-  background-color: rgba(255,255,255,0.2);
+/*  background-color: rgba(255,255,255,0.2);*/
+  background-color: white;
 }
 
 .footer-text-links li a:hover {

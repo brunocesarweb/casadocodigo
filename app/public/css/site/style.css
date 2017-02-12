@@ -1,3 +1,6 @@
+.aviso{
+  text-align: center;
+}
 .lt-ie9 .form-newsletter{
   display: none;
 }
@@ -148,9 +151,15 @@ h3,h1{
 }
 
 .footer-payments {
+  padding-top: 10px;
   padding-bottom: 10px;
   width: 15em;
   border-radius: 5px;
+}
+
+.footer-payments li{
+  text-align: center;
+  margin: 5px auto;
 }
 
 #submit-newsletter{
@@ -191,22 +200,22 @@ h3,h1{
 }
 
 #twitter {
-  display: block;
   background: url('//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/sprites.png?17557711475382243135') no-repeat -8px -242px;
   width: 31px;
   height: 31px;
   text-indent: -9999px;
-  float: left;
+  /*float: left;
+    display: block;*/
   margin: -10px 0px 0px 1%;
 }
 
 #facebook {
-  display:block;
   background: url('//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/sprites.png?17557711475382243135') no-repeat -42px -242px;
   width: 31px;
   height: 31px;
   text-indent: -9999px;
-  float: left;
+  /*float: left;
+    display:block;*/
   margin-left: 20px;
   margin-top: -10px;
 }
@@ -219,6 +228,10 @@ h3,h1{
 #layout-footer ul .social-links{
   padding-top: 10px;
   margin-bottom: 0;
+}
+
+#layout-footer ul .social-links li a{
+  color: white;
 }
 
 .accepts-paypal{
@@ -296,7 +309,8 @@ h3,h1{
 #main-nav ul {
   float: right;
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
+  height: 0px;
 }
 
 #main-nav ul li {
@@ -323,6 +337,7 @@ h3,h1{
 #home-highlight-collection{
   margin:0;
   overflow: hidden;
+  display: none;
 }
 
 #home-highlight-collection li{
@@ -634,24 +649,28 @@ h3,h1{
   background: url('//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/sprites.png?17557711475382243135')no-repeat -7px -5px;
   width: 48px;
   height: 44px;
+  display: none;
 }
 
 #sprite-drm {
   background: url('//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/sprites.png?17557711475382243135') no-repeat -7px -57px;
   width: 48px;
   height: 48px;
+  display: none;
 }
 
 #sprite-renome {
   background: url('//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/sprites.png?17557711475382243135') no-repeat -7px -117px;
   width: 79px;
   height: 57px;
+  display: none;
 }
 
 #sprite-caelum {
   background: url('//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/sprites.png?17557711475382243135')no-repeat -7px -186px;
   width: 70px;
   height: 53px;
+  display: none;
 }
 
 .breadcrumb {

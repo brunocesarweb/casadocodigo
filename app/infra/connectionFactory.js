@@ -10,7 +10,7 @@ var createDBConnection = function(){
 	//Método process.env.NODE_ENV contem o valor dev para conectar com banco de dados de teste
 	//No arquivo application dentro da lib do express para separar o ambiente de dev.
 	
-	console.log("BANCO " + JSON.stringify(process.env));
+	//console.log("BANCO " + JSON.stringify(process.env));
 
 	if (!process.env.NODE_ENV) {
 		return mysql.createConnection({

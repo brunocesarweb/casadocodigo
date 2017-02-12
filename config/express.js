@@ -45,7 +45,7 @@ module.exports = function(){
 
 		//A verificação da página tem que ser feita depois de invocar o express-load para que primeiro a aplicação ache as rotas da aplicação e caso o endereço requisitado não seja encontrado então cai no erro 404
 		app.use(function(req,res,next){
-			console.log("Erro 404 " + res.textContent );
+			//console.log("Erro 404 " + res.textContent );
 			res.status(404).render('erros/404');
 			next();
 		});

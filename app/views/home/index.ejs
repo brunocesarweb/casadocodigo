@@ -54,11 +54,12 @@
             <nav id="main-nav">
 
                 <ul class="clearfix">
-                    <li><a href="/cart" rel="nofollow">Seu carrinho</a></li>
 
-                    <li><a href="/pages/sobre-a-casa-do-codigo" rel="nofollow">Sobre</a></li>
+                    <li><a href="/produtos" rel="nofollow">Produtos</a></li>
 
-                    <li><a href="/pages/perguntas-frequentes" rel="nofollow">Perguntas</a></li>
+                    <li><a href="/produtos/form" rel="nofollow">Cadastrar</a></li>
+
+                    <li><a href="/promocoes/form" rel="nofollow">Promoções</a></li>
                 </ul>
             </nav>
         </div>
@@ -99,9 +100,8 @@
         <%}%>
     </ul>
 
-
-    <h1 class="cdc-call">Últimos dias com os preços promocionais.
-        Aproveite!</h1>
+    <h1 class="aviso">Site de exemplo do curso de Nodejs</h1>
+    <h1 class="cdc-call">Últimos dias com os preços promocionais. Aproveite!</h1>
 
     <ul class="clearfix book-collection">
         <%for(i=0; i<livros.length; i++) {%>
@@ -110,16 +110,16 @@
                     <h2 class="product-title"><%=livros[i].titulo%></h2>
                     <img width="143"
                          height="202"
-                         src="linkImagemCapa"
+                         src="<%=livros[i].url_img%>"
                          alt="<%=livros[i].titulo%>"
                          title="<%=livros[i].titulo%>"/>
-
                     <small class="buy-button">Compre</small>
                 </a>
             </li>
         <%}%>
 
     </ul>
+
 
     <h2 class="cdc-call">Diferenciais da Casa do Código</h2>
 
@@ -207,11 +207,10 @@
             </ul>
             <p class="footer-title">Redes Sociais</p>
             <ul>
-                <li class="social-links"><a
-                            href="http://www.twitter.com/casadocodigo" target="_blank"
-                            id="twitter" rel="nofollow">Facebook</a> <a
-                            href="http://www.facebook.com/casadocodigo" target="_blank"
-                            id="facebook" rel="nofollow">Twitter</a></li>
+                <li class="social-links">
+                    <a href="http://www.facebook.com/casadocodigo" target="_blank" id="facebook" rel="nofollow">Facebook</a>
+                    <a href="http://www.twitter.com/casadocodigo" target="_blank" id="twitter" rel="nofollow">Twitter</a>
+                </li>
             </ul>
         </div>
         <div id="newsletter-footer">
@@ -238,12 +237,8 @@
                 </ul>
             </div>
             <ul class="footer-payments">
-                <li><img class="accepts-paypal"
-                         src="//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/accepts_paypal.png?11981592617154272979"
-                         border="0" alt="Paypal" width="130" height="80"/></li>
-                <li><img class="accepts-pagseguro"
-                         src="//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/logopagseguro.png?11981592617154272979"
-                         border="0" alt="PagSeguro" width="180" height="26"/></li>
+                <li><img class="accepts-paypal" src="/img/paypal.png" border="0" alt="Paypal" width="180" height="40"/></li>
+                <li><img class="accepts-pagseguro" src="/img/pagseguro.png" border="0" alt="PagSeguro" width="180" height="26"/></li>
             </ul>
         </div>
     </div>

@@ -70,6 +70,74 @@ Dados para acesso:
 
 
 
+Cadastrar livros:
+
+Coleção CodeIgniter + Zend PHP
+O CodeIgniter 3.x é um framework MVC open source, escrito em PHP e mantido atualmente pelo British Columbia Institute of Technology e por uma grande comunidade de desenvolvedores ao redor do mundo. Com ele, é possível desenvolver sites, APIs e sistemas das mais diversas complexidades, tudo de forma otimizada, organizada e rápida. Suas bibliotecas nativas facilitam ainda mais o processo de desenvolvimento, e ainda permitem ser estendidas para que o funcionamento se adapte à necessidade de cada projeto.
+49.90
+
+A Web Mobile
+Design Responsivo e além para uma Web adaptada ao mundo mobile - Com o crescimento absurdo do uso de smartphones e tablets, a Web quebrou novas fronteiras. Sites enjaulados no Desktop são coisa do passado. A Web é multidispositivo e você precisa suportar mobile, TV, relógio... e até Desktop!
+29.90
+
+Mean Full stack JavaScript para aplicações web com MongoDB, Express, Angular e Node
+Já pensou em desenvolver aplicações web ricas com recursos complexos, extremamente performáticos e robustos? É isso que você conseguirá fazer com a stack MEAN.
+29.90
+
+Conhecendo o Adobe Photoshop CS6
+Sempre quis entender como fotos que a princípio não tem nada de mais, depois de alguns retoques, ganham outra vida? Com esse livro, além de entender como funciona os segredos da manipulação de imagens, você vai aprender a aplicá-los na prática.
+24.90
+
+Aplicações web real-time com Node.js
+Node.js é uma poderosa plataforma. Ele permite escrever aplicações JavaScript no server-side, tirando proveito da sintaxe e familiaridade da linguagem para escrever aplicações web escaláveis.
+19.90
+
+Aplicações Java para a web com JSF e JPA
+Neste livro, você encontrará as especificações mais utilizadas do Java, explicadas com exemplos práticos e claros que mostram como usar cada tecnologia em separado e como utilizá-las em conjunto.
+29.90
+
+Introdução à Arquitetura e Design de Software - Uma visão sobre a plataforma Java
+Neste livro, os autores, conhecidos especialistas da área, apresentam muitos tópicos que aparecem com frequência na plataforma Java, incluindo desde modelagem e design das classes, até detalhes importantes das tecnologias mais utilizadas.
+89.90
+
+Web Design Responsivo - Páginas adaptáveis para todos os dispositivos
+Está criando um site, mas ele fica péssimo quando você o abre no seu celular? Descubra como fazer com que elas abram de forma usável nos dispositivos móveis. Aprenda as diversas técnicas que constituem o Web Design Responsivo e apenas com CSS, faça com que suas páginas web funcionem em qualquer dispositivo, sem nenhuma dor de cabeça.
+29.90
+
+Jogos em HTML5 - Explore o mobile e física
+O HTML 5 é uma linguagem praticamente onipresente. Ela está presente nos computadores, tablets, celulares e vários outros dispositivos. Essa onipresença, aliada com o poder da linguagem e suas novas especificações, faz com que ela também seja usada para desenvolver jogos.
+29.90
+
+Lean Enterprise
+Como empresas de alta performance inovam em escala - Para prosperar no mundo digital, a transformação deve ser mais que voltada à tecnologia — todo mundo dentro da empresa deve trabalhar coletivamente para se adaptar. Conheça o livro que está reorganizando a corporação para a era digital. Lean Enterprise está destinado a ser a referência clássica e oficial sobre como empresas planejam, organizam, implementam e medem seu trabalho.
+49.90
+
+Desenvolvimento web com PHP e MySQL
+Imagine a internet na qual você pode apenas consumir conteúdos, como se fosse um jornal, uma revista, ou ainda, um programa na televisão. Chato, né? O segredo da famosa web 2.0 é a capacidade de interação entre as pessoas e os serviços online.
+29.90
+
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('100', 'Coleção CodeIgniter + Zend PHP', 'O CodeIgniter 3.x é um framework MVC open source, escrito em PHP e mantido atualmente pelo British Columbia Institute of Technology e por uma grande comunidade de desenvolvedores ao redor do mundo. Com ele, é possível desenvolver sites, APIs e sistemas das mais diversas complexidades, tudo de forma otimizada, organizada e rápida. Suas bibliotecas nativas facilitam ainda mais o processo de desenvolvimento, e ainda permitem ser estendidas para que o funcionamento se adapte à necessidade de cada projeto.', '49.90', '/img/codeIgniter_zend_large.jpg');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('101', 'A Web Mobile Design Responsivo', 'Com o crescimento absurdo do uso de smartphones e tablets, a Web quebrou novas fronteiras. Sites enjaulados no Desktop são coisa do passado. A Web é multidispositivo e você precisa suportar mobile, TV, relógio... e até Desktop!', '29.90', '/img/web_mobile.jpg');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('102', 'Mean Full stack JavaScript para aplicações web com MongoDB, Express, Angular e Node', 'Já pensou em desenvolver aplicações web ricas com recursos complexos, extremamente performáticos e robustos? É isso que você conseguirá fazer com a stack MEAN.', '29.90', '/img/mean.png');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('103', 'Conhecendo o Adobe Photoshop CS6', 'Sempre quis entender como fotos que a princípio não tem nada de mais, depois de alguns retoques, ganham outra vida? Com esse livro, além de entender como funciona os segredos da manipulação de imagens, você vai aprender a aplicá-los na prática.', '24.90', '/img/photoshop-featured_large.png');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('104', 'Aplicações web real-time com Node.js', 'Node.js é uma poderosa plataforma. Ele permite escrever aplicações JavaScript no server-side, tirando proveito da sintaxe e familiaridade da linguagem para escrever aplicações web escaláveis.', '19.90', '/img/nodejs-featured_large.png');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('105', 'Aplicações Java para a web com JSF e JPA', 'Neste livro, você encontrará as especificações mais utilizadas do Java, explicadas com exemplos práticos e claros que mostram como usar cada tecnologia em separado e como utilizá-las em conjunto.', '29.90', '/img/jsf-jpa-featured_large.png');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('106', 'Introdução à Arquitetura e Design de Software - Uma visão sobre a plataforma Java', 'Neste livro, os autores, conhecidos especialistas da área, apresentam muitos tópicos que aparecem com frequência na plataforma Java, incluindo desde modelagem e design das classes, até detalhes importantes das tecnologias mais utilizadas.', '89.90', '/img/arquitetura-java-featured_large.png');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('107', 'Web Design Responsivo - Páginas adaptáveis para todos os dispositivos', 'Está criando um site, mas ele fica péssimo quando você o abre no seu celular? Descubra como fazer com que elas abram de forma usável nos dispositivos móveis. Aprenda as diversas técnicas que constituem o Web Design Responsivo e apenas com CSS, faça com que suas páginas web funcionem em qualquer dispositivo, sem nenhuma dor de cabeça.', '29.90', '/img/web-design-responsivo-featured_large.png');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('108', 'Jogos em HTML5 - Explore o mobile e física', 'O HTML 5 é uma linguagem praticamente onipresente. Ela está presente nos computadores, tablets, celulares e vários outros dispositivos. Essa onipresença, aliada com o poder da linguagem e suas novas especificações, faz com que ela também seja usada para desenvolver jogos.', '29.90', '/img/jogos-mobile-cordova-featured_large.png');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('109', 'Lean Enterprise', 'Como empresas de alta performance inovam em escala - Para prosperar no mundo digital, a transformação deve ser mais que voltada à tecnologia — todo mundo dentro da empresa deve trabalhar coletivamente para se adaptar. Conheça o livro que está reorganizando a corporação para a era digital. Lean Enterprise está destinado a ser a referência clássica e oficial sobre como empresas planejam, organizam, implementam e medem seu trabalho.', '49.90', '/img/lean_enterprise.jpg');
+INSERT INTO `casadocodigo_nodejs`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('110', 'Desenvolvimento web com PHP e MySQL', 'Imagine a internet na qual você pode apenas consumir conteúdos, como se fosse um jornal, uma revista, ou ainda, um programa na televisão. Chato, né? O segredo da famosa web 2.0 é a capacidade de interação entre as pessoas e os serviços online.', '29.90', '/img/cover_large.jpg');
+
+
+
+Alterar tabela
+ALTER TABLE `casadocodigo_nodejs`.`livros` 
+ADD COLUMN `url_img` VARCHAR(255) NULL DEFAULT NULL AFTER `preco`;
+
+
+http://localhost:3000/produtos
+http://localhost:3000/produtos/form
+
 -----------------------------------------------------------------------------
 
 Link:
