@@ -128,7 +128,7 @@ INSERT INTO `heroku_ae86d57b751b5b8`.`livros` (`id`, `titulo`, `descricao`, `pre
 INSERT INTO `heroku_ae86d57b751b5b8`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('109', 'Lean Enterprise', 'Como empresas de alta performance inovam em escala - Para prosperar no mundo digital, a transformação deve ser mais que voltada à tecnologia — todo mundo dentro da empresa deve trabalhar coletivamente para se adaptar. Conheça o livro que está reorganizando a corporação para a era digital. Lean Enterprise está destinado a ser a referência clássica e oficial sobre como empresas planejam, organizam, implementam e medem seu trabalho.', '49.90', '/img/lean_enterprise.jpg');
 INSERT INTO `heroku_ae86d57b751b5b8`.`livros` (`id`, `titulo`, `descricao`, `preco`, `url_img`) VALUES ('110', 'Desenvolvimento web com PHP e MySQL', 'Imagine a internet na qual você pode apenas consumir conteúdos, como se fosse um jornal, uma revista, ou ainda, um programa na televisão. Chato, né? O segredo da famosa web 2.0 é a capacidade de interação entre as pessoas e os serviços online.', '29.90', '/img/cover_large.jpg');
 
-
+ 
 
 Alterar tabela
 ALTER TABLE `heroku_ae86d57b751b5b8`.`livros` 
