@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head> 
-<style>
-	form{
-		display: none;
-	}
-</style>
-</head>
+
+	<% include ../includes/header %>
+
 <body>
-	<h1>Página em construção</h1>
+
+	<% include ../includes/menu %>
+
+fomr promo
 	<form action="/promocoes" method="post">
 		<div>
 			<input type="text" name="mensagem" />
@@ -19,8 +18,11 @@
 					<option value="<%=lista[i].id%>"><%=lista[i].titulo%></option>
 				<%}%>
 			</select>
-		</div>	
+		</div>
 		<input type="submit" value="Cadastrar promoção">
 	</form>
+
+	<% include ../includes/footer %>
+
 </body>
 </html>
