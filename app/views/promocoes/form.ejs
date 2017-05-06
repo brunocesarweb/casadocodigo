@@ -7,20 +7,32 @@
 
 	<% include ../includes/menu %>
 
-fomr promo
-	<form action="/promocoes" method="post">
-		<div>
-			<input type="text" name="mensagem" />
-		</div>
-		<div>
-			<select name="livro[id]">
-				<%for(var i=0; i<lista.length;i++){%>
-					<option value="<%=lista[i].id%>"><%=lista[i].titulo%></option>
-				<%}%>
-			</select>
-		</div>
-		<input type="submit" value="Cadastrar promoção">
-	</form>
+	<div class="container">
+
+		<form action="/promocoes" method="post">
+			<fieldset>
+				<legend>Cadastrar promoção</legend>
+
+				<div>
+					<label for="mensagem">Mensagem</label>
+					<input type="text" name="mensagem" placeholder="Digite a mensagem" />
+				</div>
+
+				<div>
+					<label for="livro">Escolher o produto:</label>
+					<select class="form-control" name="livro[id]">
+						<%for(var i=0; i<lista.length;i++){%>
+							<option value="<%=lista[i].id%>"><%=lista[i].titulo%></option>
+						<%}%>
+					</select>
+				</div>
+
+				<input type="submit" value="Cadastrar promoção" id="btn-gravar">
+
+		</form>
+	</fieldset>
+
+	</div><!--end - container-->
 
 	<% include ../includes/footer %>
 

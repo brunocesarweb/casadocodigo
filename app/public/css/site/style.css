@@ -687,7 +687,6 @@ h3,h1{
 
 /*Página de formulário*/
 fieldset{
-  max-width: 600px;
   margin: 0px auto;
   padding: 20px 0px;
 }
@@ -719,7 +718,7 @@ fieldset textarea{
 fieldset input,
 fieldset textarea{
   padding: .5rem .75rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.25;
   color: #464a4c;
   background-color: #fff;
@@ -740,7 +739,7 @@ fieldset input#btn-gravar{
   vertical-align: middle;
   border: 1px solid transparent;
   padding: .5rem 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border-radius: .25rem;
 }
 
@@ -757,4 +756,8 @@ fieldset input#btn-gravar{
   padding: .5rem 1rem;
   font-size: 1rem;
   border-radius: .25rem;
+}
+
+table.table thead tr th{
+  border-top: 1px solid !important;
 }

@@ -1,9 +1,9 @@
+<!DOCTYPE html>
 <html>
 
-<% include ../includes/header %>
+	<% include ../includes/header %>
 
 	<body>
-	<!--<h1>Página em construção</h1>-->
 	<% include ../includes/menu %>
 
 		<%if(errosValidacao){%>
@@ -16,24 +16,26 @@
 			</div>
 		<%}%>
 
-		<form action="/produtos" method="post">
-			<fieldset>
-					<legend>Cadastrar Livro</legend>
-					<div>
-						<label for="titulo">Titulo</label>
-						<input type="text" id="titulo" name="titulo" value="<%=produto.titulo%>" placeholder="coloque o titulo do livro">
-					</div>
-					<div>
-						<label for="preco">Preço</label>
-						<input type="text" id="preco" name="preco" <%=produto.preco%> placeholder="coloque o preco">
-					</div>
-					<div>
-						<label for="descricao">Descrição</label>
-						<textarea name="descricao" id="descricao" cols="20" rows="10" placeholder="coloque a descrição"><%=produto.descricao%></textarea>
-					</div>
-					<input type="submit" value="gravar" id="btn-gravar" />
-			</fieldset>
-		</form>
+		<div class="container">
+			<form action="/produtos" method="post">
+				<fieldset>
+						<legend>Cadastrar Livro</legend>
+						<div>
+							<label for="titulo">Titulo</label>
+							<input type="text" id="titulo" name="titulo" value="<%=produto.titulo%>" placeholder="coloque o titulo do livro">
+						</div>
+						<div>
+							<label for="preco">Preço</label>
+							<input type="text" id="preco" name="preco" <%=produto.preco%> placeholder="coloque o preco">
+						</div>
+						<div>
+							<label for="descricao">Descrição</label>
+							<textarea name="descricao" id="descricao" cols="20" rows="10" placeholder="coloque a descrição"><%=produto.descricao%></textarea>
+						</div>
+						<input type="submit" value="Gravar" id="btn-gravar" />
+				</fieldset>
+			</form>
+		</div>
 
 		<% include ../includes/footer %>
 
